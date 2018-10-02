@@ -2,3 +2,17 @@
     color: black;
     margin-right: 0.5rem;
 }
+.featured {
+    height: 400px;
+    overflow-y: scroll;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .featured div#desc.desc.card,
+    .featured div#slide-show.slide-show {
+        width: 100%;
+    }
+    .featured div#slide-show.slide-show {
+        margin-top: 1rem;
+    }
+}
