@@ -16,3 +16,11 @@
         margin-top: 1rem;
     }
 }
+.python-projects {
+    margin-top: 7rem;
+}
+div.row-separator {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 1px solid rgb(85, 85, 85);
+}
