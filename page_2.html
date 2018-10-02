@@ -16,7 +16,7 @@
     <div class="container-fluid py-3">
         <header class="header-ov-toc d-flex flex-column">
             <div class="mx-auto">
-                <h1>Projects</h1>
+                <h1 id="projects">Projects</h1>
             </div>
             <div class="overview card mt-4 p-3">
                 <h2>Overview</h2>
@@ -27,22 +27,29 @@
                     <p class="m-0 text-center">Contents</p>
                 </div>
                 <ul class="pl-3 mt-3 list-unstyled">
-                    <a href="#">
+                    <a href="#featured">
                         <li>
                             <span>1</span> Featured
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="#python-projects">
                         <li>
                             <span>2</span> Python Projects
+                        </li>
+
+                    </a>
+                    <a href="#front-end">
+                        <li>
+                            <span>3</span> Front-end Projects
                         </li>
                     </a>
                 </ul>
             </div>
         </header>
         <contents class="">
+            <!-- Featured projects start here -->
             <div class="featured border mt-5">
-                <h3 class="mx-3 mt-3">Featured</h3>
+                <h3 class="mx-3 mt-3" id="featured">Featured</h3>
                 <div class="python-featured row m-0 mt-4">
                     <p class="mx-auto">
                         <b>Python Final</b>
@@ -65,8 +72,9 @@
                     </div>
                 </div>
             </div>
+            <!-- General projects start here -->
             <div class="python-projects border">
-                <h3 class="card-header">Python Projects</h3>
+                <h3 class="card-header" id="python-projects">Python</h3>
                 <div class="row m-0">
                     <p class="mx-auto mt-3">Tetris</p>
                     <div class="desc-show row m-0">
@@ -113,9 +121,30 @@
 
                 </div>
             </div>
+            <div class="front-end-projects border">
+                <h3 class="card-header" id="front-end">Front-end (HTML/CSS/Javascript)</h3>
+                <div class="row m-0">
+                    <p class="mx-auto mt-3">Tetris</p>
+                    <div class="desc-show row m-0">
+                        <div class="desc card col-sm-6 border-0" id="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula scelerisque risus. Pellentesque efficitur est nec
+                            risus congue, at auctor est feugiat. Vivamus accumsan aliquet tincidunt. Maecenas ultrices et
+                            lectus in elementum. Etiam sed risus ut lacus maximus tempor at vel quam. Nunc fermentum lobortis
+                            est, in gravida eros suscipit quis. Cras mollis ex at dapibus blandit. Sed ac nulla risus. In
+                            magna libero, molestie ut risus et, sollicitudin euismod nunc. Curabitur nunc augue, auctor sed
+                            massa ut, dictum sodales nunc. Integer eget nisl porta, molestie lorem sit amet, pulvinar felis.
+                            Curabitur at mauris vitae dui mollis tincidunt. Cras convallis arcu lorem, vitae imperdiet dui
+                            luctus quis. Nam sollicitudin pulvinar dolor, sed imperdiet metus pellentesque et. Proin neque
+                            augue, scelerisque id blandit at, facilisis cursus massa. Nulla sed quam risus.
+                        </div>
+                        <div class="slide-show col-sm-6" id="slide-show">
+                            <img class="img-fluid" src="images/store-placeholder.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </contents>
-
     </div>
 </body>
 
-</htm
+</html>
