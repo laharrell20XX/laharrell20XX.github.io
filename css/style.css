@@ -1,3 +1,24 @@
+:root{
+    border-color: rgb(49, 49, 250);
+}
+#portfolio-page {
+    background-color: #f79341;
+}
+#portfolio-page .card, #portfolio-page .border-blue {
+    border: 1px solid rgb(49, 49, 250);
+    background-color: white;
+}
+.portfolio-header * {
+    color: white;
+    margin-bottom: 7rem;
+}
+#projects {
+    color: white;
+}
+#portfolio-page .portfolio-navbar {
+    border-top: 0px;
+    border-radius: 5px;
+}
 .table-of-contents ul span {
     color: black;
     margin-right: 0.5rem;
@@ -29,4 +50,7 @@ div.row-separator {
 }
 .contact {
     margin-top: 7rem;
+}
+.contact#contact .border-blue {
+    border-radius: 25px;
 }
