@@ -12,7 +12,7 @@
     color: white;
     margin-bottom: 7rem;
 }
-#projects {
+#projects, .header {
     color: white;
 }
 #portfolio-page .portfolio-navbar {
