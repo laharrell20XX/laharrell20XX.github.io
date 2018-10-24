@@ -1,10 +1,11 @@
-:root{
+:root {
     border-color: rgb(49, 49, 250);
 }
 #portfolio-page {
     background-color: #f79341;
 }
-#portfolio-page .card, #portfolio-page .border-blue {
+#portfolio-page .card,
+#portfolio-page .border-blue {
     border: 1px solid rgb(49, 49, 250);
     background-color: white;
 }
@@ -12,7 +13,7 @@
     color: white;
     margin-bottom: 7rem;
 }
-#projects, .header {
+.header {
     color: white;
 }
 #portfolio-page .portfolio-navbar {
