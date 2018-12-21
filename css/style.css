@@ -55,3 +55,26 @@ div.row-separator {
 .contact#contact .border-blue {
     border-radius: 25px;
 }
+
+.project-content {
+    position: relative;
+    min-height: 250px;
+}
+
+.project-content .tab-content {
+    background: white;
+    min-height: 250px;
+    position: absolute;
+    padding: 4rem 20px 20px 20px;
+    top: -1px;
+    width: 100%;
+}
+#ic-projects:target,
+#ind-projects:target {
+    z-index: 1;
+}
+
+.project-tabbed-area ul li {
+    border: 1px solid gray;
+    border-bottom: 1px solid white;
+}
