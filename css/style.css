@@ -1,57 +1,85 @@
 :root {
     border-color: rgb(49, 49, 250);
 }
+
 #portfolio-page {
     background-color: #f08238d5;
 }
+
 #portfolio-page .card,
 #portfolio-page .border-blue {
     border: 1px solid rgb(49, 49, 250);
     background-color: white;
 }
+
 .portfolio-header * {
     color: white;
     margin-bottom: 7rem;
 }
+
 .header {
     color: white;
 }
+
 #portfolio-page .portfolio-navbar {
     border-top: 0px;
     border-radius: 5px;
 }
+
 .table-of-contents ul span {
     color: black;
     margin-right: 0.5rem;
 }
+
 .featured {
     height: 400px;
     overflow-y: scroll;
     width: 100%;
 }
+
 @media (max-width: 768px) {
+
     .featured div#desc.desc.card,
     .featured div#slide-show.slide-show {
         width: 100%;
     }
+
     .featured div#slide-show.slide-show {
         margin-top: 1rem;
     }
 }
+
 .python-projects {
     margin-top: 7rem;
 }
+
 div.row-separator {
     margin-top: 3rem;
     margin-bottom: 3rem;
     border: 1px solid rgb(85, 85, 85);
 }
+
 .front-end-projects {
     margin-top: 7rem;
 }
+
 .contact {
     margin-top: 7rem;
 }
+
 .contact#contact .border-blue {
     border-radius: 25px;
+}
+
+.portfolio-header .descriptor-list {
+    list-style: none;
+    display: inline-table;
+    margin-bottom: 0;
+    padding-left: 0rem;
+}
+
+.portfolio-header .descriptor-list li {
+    margin-bottom: 1rem;
+    text-align: start;
+    text-decoration-line: underline;
 }
