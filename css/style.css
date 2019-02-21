@@ -1,57 +1,72 @@
 :root {
     border-color: rgb(49, 49, 250);
 }
+
 #portfolio-page {
     background-color: #f08238d5;
 }
+
 #portfolio-page .card,
 #portfolio-page .border-blue {
     border: 1px solid rgb(49, 49, 250);
     background-color: white;
 }
+
 .portfolio-header * {
     color: white;
     margin-bottom: 7rem;
 }
+
 .header {
     color: white;
 }
+
 #portfolio-page .portfolio-navbar {
     border-top: 0px;
     border-radius: 5px;
 }
+
 .table-of-contents ul span {
     color: black;
     margin-right: 0.5rem;
 }
+
 .featured {
     height: 400px;
     overflow-y: scroll;
     width: 100%;
 }
+
 @media (max-width: 768px) {
+
     .featured div#desc.desc.card,
     .featured div#slide-show.slide-show {
         width: 100%;
     }
+
     .featured div#slide-show.slide-show {
         margin-top: 1rem;
     }
 }
+
 .python-projects {
     margin-top: 7rem;
 }
+
 div.row-separator {
     margin-top: 3rem;
     margin-bottom: 3rem;
     border: 1px solid rgb(85, 85, 85);
 }
+
 .front-end-projects {
     margin-top: 7rem;
 }
+
 .contact {
     margin-top: 7rem;
 }
+
 .contact#contact .border-blue {
     border-radius: 25px;
 }
@@ -66,15 +81,22 @@ div.row-separator {
     min-height: 250px;
     position: absolute;
     padding: 4rem 20px 20px 20px;
-    top: -1px;
     width: 100%;
 }
-#ic-projects:target,
-#ind-projects:target {
-    z-index: 1;
+
+.project-tabbed-area ul.nav-tabs {
+    border: 0;
 }
 
-.project-tabbed-area ul li {
-    border: 1px solid gray;
-    border-bottom: 1px solid white;
+.project-tabbed-area ul li.nav-item {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background-color: rgba(245, 245, 245, 0.918);
+    z-index: 1;
+
+}
+
+.project-tabbed-area ul li.nav-item .nav-link.active {
+    background-color: white;
+    border-color: rgb(49, 49, 250) rgb(49, 49, 250) white rgb(49, 49, 250);
 }
