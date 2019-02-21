@@ -50,16 +50,20 @@
                     and on the side</p>
             </div>
             <div class="project-tabbed-area mt-5">
-                <ul class="list-unstyled d-flex mb-0">
-                    <li class="bg-white"><a class="px-4" href="#ic-projects">In Class Projects</a></li>
-                    <li class=" px-4 bg-white"><a href="#ind-projects">Independent Projects</a></li>
-                </ul>
-                <div class="project-content border">
-                    <div class="tab-content " id="ind-projects">
-                        <h2>Other Projects Here</h2>
-                    </div>
-                    <div class="tab-content" id="ic-projects">
+                <nav>
+                    <ul class="list-unstyled d-flex nav nav-tabs">
+                        <li class=" nav-item"><a class="px-4 nav-link active" href="#ic-projects" data-toggle="tab" id="nav-ic-tab">In
+                                Class Projects</a></li>
+                        <li class=" nav-item"><a class="px-4 nav-link" href="#ind-projects" data-toggle="tab" id="nav-ind-tab">Independent
+                                Projects</a></li>
+                    </ul>
+                </nav>
+                <div class=" tab-content project-content bg-white border-blue">
+                    <div class="tab-pane active" id="ic-projects">
                         <h2>Projects Here</h2>
+                    </div>
+                    <div class="tab-pane bg-white" id="ind-projects">
+                        <h2>Other Projects Here</h2>
                     </div>
                 </div>
             </div>
@@ -88,7 +92,7 @@
             </div>
         </header>
         <div class="contents">
-            
+
             <!-- Featured projects start here -->
             <div class="featured-container pt-5" id="featured">
                 <div class="featured border-blue mt-5">
@@ -353,12 +357,12 @@
             </div>
         </div>
     </div>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script> -->
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
