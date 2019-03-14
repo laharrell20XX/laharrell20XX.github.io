@@ -40,14 +40,17 @@
         <div class="portfolio-header text-center mt-5">
             <h1>Logan Harrell</h1>
         </div>
-        <header class="header-ov-toc d-flex flex-column" id="projects">
-            <div class="mx-auto header pt-2">
-                <h2 class="mt-5">Projects</h2>
-            </div>
-            <div class="overview card mt-4 p-3">
-                <h2>Overview</h2>
-                <p class="overview-desc m-0">Here are some of the projects I have worked heavily on, both at Base Camp
-                    and on the side</p>
+        <div class="projects-section">
+            <div class="header-ov-toc d-flex flex-column" id="projects">
+                <div class="mx-auto header pt-2">
+                    <h2 class="mt-5">Projects</h2>
+                </div>
+                <div class="overview card mt-4 p-3">
+                    <h2>Overview</h2>
+                    <p class="overview-desc m-0">Here are some of the projects I have worked heavily on, both at Base
+                        Camp
+                        and on the side</p>
+                </div>
             </div>
             <div class="project-tabbed-area mt-5">
                 <nav>
@@ -60,118 +63,131 @@
                 </nav>
                 <div class=" tab-content project-content bg-white border-blue">
                     <div class="tab-pane active" id="ic-projects">
-                        <h2>Projects Here</h2>
+
+                        <div class="table-of-contents card col-sm-12 col-lg-3 col-md-6 p-0 mt-4">
+                            <div class="card-header">
+                                <p class="m-0 text-center">Contents</p>
+                            </div>
+                            <ul class="pl-3 mt-3 list-unstyled">
+                                <a href="#featured">
+                                    <li>
+                                        <span>1</span> Featured
+                                    </li>
+                                </a>
+                                <a href="#python-projects">
+                                    <li>
+                                        <span>2</span> Python Projects
+                                    </li>
+
+                                </a>
+                                <a href="#front-end">
+                                    <li>
+                                        <span>3</span> Front-end Projects
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+
+                        <!-- Featured projects start here -->
+                        <div class="featured-container pt-5" id="featured">
+                            <div class="featured border-blue mt-5">
+                                <h3 class="px-3 pt-3 card-header">Featured</h3>
+                                <div class="python-featured m-0 mt-4 col">
+                                    <div class="row m-0">
+                                        <p class="mx-auto">
+                                            <b>Python Final</b>
+                                        </p>
+                                    </div>
+                                    <div class="d-flex col-sm-12 col-lg-12 row m-0">
+                                        <div class="slide-show mx-auto" id="slide-show">
+                                            <a href="https://asciinema.org/a/nNAJQL32NpwOHG2vQhRA65gGI" target="_blank">
+                                                <img class="img-fluid" src="https://asciinema.org/a/nNAJQL32NpwOHG2vQhRA65gGI.png"
+                                                    height="500" width="600" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- General projects start here -->
+                        <div class="python-projects-container pt-5 " id="python-projects">
+                            <div class="python-projects border-blue">
+                                <h3 class="card-header" id="python-projects">Python</h3>
+                                <div class="row m-0">
+                                    <p class="mx-auto mt-3"><strong>Tetris</strong></p>
+                                    <div class="desc-show row m-0">
+                                        <div class="desc card col-sm-12 col-lg-6 border-0" id="desc">
+                                            This is a game of tetris programmed using python tkinter. It started out as
+                                            a shell
+                                            our
+                                            teacher wrote, then we had to make
+                                            it work as well as provide additional features.
+                                            <p>
+                                                <a href="https://github.com/laharrell20XX/tetris-game/commits/master">Find
+                                                    the
+                                                    source code here.
+                                                </a>
+                                            </p>
+                                        </div>
+                                        <div class="d-flex col-sm-12 col-lg-6">
+                                            <div class="slide-show  mx-auto" id="slide-show">
+                                                <img class="img-fluid" src="images/tetris_demo.PNG" alt="placeholder">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row-separator"></div>
+                                <div class="row m-0">
+                                    <p class="mx-auto"><strong>Python Final</strong></p>
+                                    <div class="desc-show row m-0">
+                                        <div class="desc card col-sm-12 col-lg-6 border-0" id="desc">
+                                            This is a simulated rental-store application that runs in the terminal. It
+                                            has both
+                                            an
+                                            employee mode and a customer mode
+                                            where the employee mode allows users to check stock, revenue and
+                                            transactions and
+                                            the
+                                            customer
+                                            mode allows users to rent and return costumes.
+                                            <p>
+                                                <a href="https://github.com/laharrell20XX/rental_store_loganharrell"
+                                                    target="_blank">Find
+                                                    the source code here</a>
+                                            </p>
+                                        </div>
+                                        <div class="d-flex col-sm-12 col-lg-6">
+                                            <div class="slide-show mx-auto" id="slide-show">
+                                                <a href="https://asciinema.org/a/nNAJQL32NpwOHG2vQhRA65gGI" target="_blank">
+                                                    <img class="img-fluid" src="https://asciinema.org/a/nNAJQL32NpwOHG2vQhRA65gGI.png"
+                                                        height="250" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                </div>
+                                <div class="row">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <h2>Projects Here</h2> -->
                     </div>
                     <div class="tab-pane bg-white" id="ind-projects">
                         <h2>Other Projects Here</h2>
                     </div>
                 </div>
             </div>
-            <div class="table-of-contents card col-sm-12 col-lg-3 col-md-6 p-0 mt-4">
-                <div class="card-header">
-                    <p class="m-0 text-center">Contents</p>
-                </div>
-                <ul class="pl-3 mt-3 list-unstyled">
-                    <a href="#featured">
-                        <li>
-                            <span>1</span> Featured
-                        </li>
-                    </a>
-                    <a href="#python-projects">
-                        <li>
-                            <span>2</span> Python Projects
-                        </li>
+            <!-- <div class="contents"> -->
 
-                    </a>
-                    <a href="#front-end">
-                        <li>
-                            <span>3</span> Front-end Projects
-                        </li>
-                    </a>
-                </ul>
-            </div>
-        </header>
-        <div class="contents">
 
-            <!-- Featured projects start here -->
-            <div class="featured-container pt-5" id="featured">
-                <div class="featured border-blue mt-5">
-                    <h3 class="px-3 pt-3 card-header">Featured</h3>
-                    <div class="python-featured m-0 mt-4 col">
-                        <div class="row m-0">
-                            <p class="mx-auto">
-                                <b>Python Final</b>
-                            </p>
-                        </div>
-                        <div class="d-flex col-sm-12 col-lg-12 row m-0">
-                            <div class="slide-show mx-auto" id="slide-show">
-                                <a href="https://asciinema.org/a/nNAJQL32NpwOHG2vQhRA65gGI" target="_blank">
-                                    <img class="img-fluid" src="https://asciinema.org/a/nNAJQL32NpwOHG2vQhRA65gGI.png"
-                                        height="500" width="600" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- General projects start here -->
-            <div class="python-projects-container pt-5 " id="python-projects">
-                <div class="python-projects border-blue">
-                    <h3 class="card-header" id="python-projects">Python</h3>
-                    <div class="row m-0">
-                        <p class="mx-auto mt-3"><strong>Tetris</strong></p>
-                        <div class="desc-show row m-0">
-                            <div class="desc card col-sm-12 col-lg-6 border-0" id="desc">
-                                This is a game of tetris programmed using python tkinter. It started out as a shell our
-                                teacher wrote, then we had to make
-                                it work as well as provide additional features.
-                                <p>
-                                    <a href="https://github.com/laharrell20XX/tetris-game/commits/master">Find the
-                                        source code here.
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="d-flex col-sm-12 col-lg-6">
-                                <div class="slide-show  mx-auto" id="slide-show">
-                                    <img class="img-fluid" src="images/tetris_demo.PNG" alt="placeholder">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row-separator"></div>
-                    <div class="row m-0">
-                        <p class="mx-auto"><strong>Python Final</strong></p>
-                        <div class="desc-show row m-0">
-                            <div class="desc card col-sm-12 col-lg-6 border-0" id="desc">
-                                This is a simulated rental-store application that runs in the terminal. It has both an
-                                employee mode and a customer mode
-                                where the employee mode allows users to check stock, revenue and transactions and the
-                                customer
-                                mode allows users to rent and return costumes.
-                                <p>
-                                    <a href="https://github.com/laharrell20XX/rental_store_loganharrell" target="_blank">Find
-                                        the source code here</a>
-                                </p>
-                            </div>
-                            <div class="d-flex col-sm-12 col-lg-6">
-                                <div class="slide-show mx-auto" id="slide-show">
-                                    <a href="https://asciinema.org/a/nNAJQL32NpwOHG2vQhRA65gGI" target="_blank">
-                                        <img class="img-fluid" src="https://asciinema.org/a/nNAJQL32NpwOHG2vQhRA65gGI.png"
-                                            height="250" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-
-                    </div>
-                    <div class="row">
-
-                    </div>
-                </div>
-            </div>
             <div class="pt-5 front-end-container" id="front-end">
                 <div class="front-end-projects border-blue">
                     <h3 class="card-header">Front-end (HTML/CSS/Javascript)</h3>
@@ -180,8 +196,10 @@
                         <div class="desc-show row m-0">
                             <div class="desc card col-sm-12 col-lg-6 border-0" id="desc">
                                 This project uses the languages HTML, CSS, and Javascript as well as Bootstrap
-                                frameworking and Handlebars templating to create a web based rental store. It allows
-                                users to rent items after filling out a contact form which has to be validated. Then, a
+                                frameworking and Handlebars templating to create a web based rental store. It
+                                allows
+                                users to rent items after filling out a contact form which has to be validated.
+                                Then, a
                                 receipt is shown to the user and the transaction is finished.
                                 <p>
                                     <a href="https://github.com/laharrell20XX/logan-harrell-web-rental-agency" target="_blank">Find
@@ -203,7 +221,8 @@
                         <p class="mx-auto mt-3"><strong>Github Projects Remake</strong></p>
                         <div class="desc-show row m-0">
                             <div class="desc card col-sm-12 col-lg-6 border-0" id="desc">
-                                For these assignments we were tasked to recreate multiple portions of github using only
+                                For these assignments we were tasked to recreate multiple portions of github using
+                                only
                                 bootstrap, css, and html. Then we
                                 later combined the portions to emulate an entire github page.
                                 <p>
@@ -242,6 +261,7 @@
                     </div>
                 </div>
             </div>
+            <!-- </div> -->
         </div>
         <div class="about-me mt-5 " id="about-me">
             <div class="row pt-2">
