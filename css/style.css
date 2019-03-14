@@ -1,5 +1,6 @@
 :root {
-    border-color: rgb(49, 49, 250);
+    --main-border-color: rgb(49, 49, 250);
+    border-color: var(--main-border-color);
 }
 
 #portfolio-page {
@@ -8,7 +9,7 @@
 
 #portfolio-page .card,
 #portfolio-page .border-blue {
-    border: 1px solid rgb(49, 49, 250);
+    border: 1px solid var(--main-border-color);
     background-color: white;
 }
 
@@ -93,10 +94,15 @@ div.row-separator {
     border-top-right-radius: .25rem;
     background-color: rgba(245, 245, 245, 0.918);
     z-index: 1;
+    border-bottom-color: var(--main-border-color);
 
+}
+
+.project-tabbed-area ul li.nav-item .nav-link {
+    border-bottom-color: var(--main-border-color);
 }
 
 .project-tabbed-area ul li.nav-item .nav-link.active {
     background-color: white;
-    border-color: rgb(49, 49, 250) rgb(49, 49, 250) white rgb(49, 49, 250);
+    border-color: var(--main-border-color) var(--main-border-color) transparent var(--main-border-color);
 }
