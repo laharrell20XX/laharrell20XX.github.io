@@ -1,0 +1,113 @@
+:root {
+    --main-border-color: rgb(49, 49, 250);
+    --main-header-bg-color: #d4712f;
+    border-color: var(--main-border-color);
+}
+
+.bg-orange {
+    background-color: var(--main-header-bg-color);
+}
+
+
+#portfolio-page .border-blue {
+    border: 1px solid var(--main-border-color);
+    background-color: white;
+}
+
+.portfolio-header * {
+    margin-bottom: 7rem;
+    color: white;
+}
+
+.header {
+    /* color: white; */
+}
+
+#portfolio-page .portfolio-navbar {
+    border-top: 0px;
+    border-radius: 5px;
+}
+
+.table-of-contents ul span {
+    color: black;
+    margin-right: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .featured div#desc.desc.card,
+    .featured div#slide-show.slide-show {
+        width: 100%;
+    }
+
+    .featured div#slide-show.slide-show {
+        margin-top: 1rem;
+    }
+}
+
+.python-projects {
+    margin-top: 7rem;
+}
+
+div.row-separator {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+.front-end-projects {
+    margin-top: 7rem;
+}
+
+.contact {
+    margin-top: 7rem;
+}
+
+.contact#contact .border-blue {
+    border-radius: 25px;
+}
+
+.project-content {
+    position: relative;
+    min-height: 250px;
+}
+
+.project-about .card.border-left-blue {
+    border-left-color: var(--main-border-color);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.project-content .tab-content {
+    background: white;
+    min-height: 250px;
+    position: absolute;
+    padding: 4rem 20px 20px 20px;
+    width: 100%;
+}
+
+/* .project-tabbed-area ul.nav-tabs {
+    border: 0;
+}
+
+.project-tabbed-area ul li.nav-item {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background-color: rgba(245, 245, 245, 0.918);
+    z-index: 1;
+    border-bottom-color: var(--main-border-color);
+
+}
+
+.project-tabbed-area ul li.nav-item .nav-link {
+    border-bottom-color: var(--main-border-color);
+}
+
+.project-tabbed-area ul li.nav-item .nav-link.active {
+    background-color: white;
+    border-color: var(--main-border-color) var(--main-border-color) transparent var(--main-border-color);
+} */
